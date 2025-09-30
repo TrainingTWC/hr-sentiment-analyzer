@@ -1,0 +1,7 @@
+{
+  "name": "HR Sentiment Analyzer",
+  "description": "An AI-powered HR connect app that transcribes and analyzes the sentiment of a real-time audio conversation with an employee, providing insights into their feedback.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "version": "1.0.0",
+  "updated_utc": "2025-09-29T08:24:39.399769Z",
+  "domain": "Third Wave Coffee (TWC)",
+  "roles": {
+    "barista": {
+      "aliases": [
+        "barista",
+        "café staff",
+        "partner"
+      ],
+      "theme_reference": [
+        "workload_staffing",
+        "training_onboarding",
+        "recognition_respect"
+      ]
+    },
+    "buddy_trainer": {
+      "aliases": [
+        "buddy",
+        "buddy trainer"
+      ],
+      "theme_reference": [
+        "training_onboarding",
+        "growth_progression",
+        "recognition_respect"
+      ]
+    },
+    "shift_manager": {
+      "aliases": [
+        "shift lead",
+        "shift manager",
+        "floor lead"
+      ],
+      "theme_reference": [
+        "manager_team_dynamics",
+        "empowerment_ownership",
+        "growth_progression"
+      ]
+    },
+    "area_manager": {
+      "aliases": [
+        "am",
+        "area manager"
+      ],
+      "theme_reference": [
+        "manager_team_dynamics",
+        "workload_staffing"
+      ]
+    },
+    "regional_manager": {
+      "aliases": [
+        "rm",
+        "regional manager"
+      ],
+      "theme_reference": [
+        "manager_team_dynamics",
+        "growth_progression"
+      ]
+    },
+    "hrbp": {
+      "aliases": [
+        "hr",
+        "hrbp",
+        "hr partner"
+      ],
+      "theme_reference": [
+        "communication_clarity",
+        "overall_satisfaction"
+      ]
+    },
+    "hr_head": {
+      "aliases": [
+        "hr head",
+        "head of hr"
+      ],
+      "theme_reference": [
+        "communication_clarity"
+      ]
+    },
+    "trainer_ld": {
+      "aliases": [
+        "trainer",
+        "learning manager",
+        "l&d"
+      ],
+      "theme_reference": [
+        "training_onboarding"
+      ]
+    }
+  },
+  "programs": {
+    "respect_values": {
+      "aliases": [
+        "respect",
+        "respect badge",
+        "badges",
+        "values"
+      ],
+      "theme_reference": [
+        "recognition_respect"
+      ],
+      "description": "Core TWC value framework with digital badges for Responsibility, Empathy, Service Excellence, Performance with Purpose, Ethics, Collaboration, Trust."
+    },
+    "orientation_online": {
+      "aliases": [
+        "orientation",
+        "online orientation",
+        "induction"
+      ],
+      "theme_reference": [
+        "training_onboarding"
+      ],
+      "description": "Digital onboarding program for new hires, hosted on ZingLearn."
+    },
+    "zinglms": {
+      "aliases": [
+        "zinglms",
+        "zing learn",
+        "zinglearn",
+        "lms",
+        "training app"
+      ],
+      "theme_reference": [
+        "training_onboarding",
+        "communication_clarity"
+      ],
+      "description": "TWC’s digital learning & communication platform."
+    },
+    "bench_planning": {
+      "aliases": [
+        "bench planning",
+        "talent bench",
+        "pipeline",
+        "succession"
+      ],
+      "theme_reference": [
+        "growth_progression"
+      ],
+      "description": "Manager-specific program to prepare team members for future leadership roles."
+    },
+    "hr_connect": {
+      "aliases": [
+        "hr connect",
+        "connect call",
+        "check-in"
+      ],
+      "theme_reference": [
+        "overall_satisfaction"
+      ],
+      "description": "15-minute one-on-one conversation between HR and employees."
+    }
+  },
+  "stores": {
+    "id_format_regex": "^S\\d{3}$",
+    "examples": [
+      {
+        "store_id": "S056",
+        "location": "Mall of India",
+        "region": "North"
+      },
+      {
+        "store_id": "S016",
+        "location": "Jayanagar",
+        "region": "South"
+      },
+      {
+        "store_id": "S153",
+        "location": "Lajpat Nagar",
+        "region": "North"
+      }
+    ],
+    "theme_reference": [
+      "workload_staffing",
+      "manager_team_dynamics"
+    ]
+  },
+  "people": [
+    {
+      "id": "h1355",
+      "name": "Suresh",
+      "role": "Area Manager",
+      "region": "South"
+    },
+    {
+      "id": "h546",
+      "name": "Ajay H",
+      "role": "Area Manager",
+      "region": "North"
+    },
+    {
+      "id": "h2595",
+      "name": "Kailash",
+      "role": "Trainer (L&D)",
+      "region": "North"
+    },
+    {
+      "id": null,
+      "name": "Anaya",
+      "role": "Buddy Trainer",
+      "region": "All"
+    },
+    {
+      "id": null,
+      "name": "Arjun",
+      "role": "Barista",
+      "region": "All"
+    }
+  ],
+  "domain_lock": {
+    "enforce": true,
+    "allowed_topics": [
+      "RESPECT values & badges",
+      "Orientation (online)",
+      "ZingLearn LMS (training & comms)",
+      "Bench Planning (career progression)",
+      "HR Connect check-ins",
+      "Café operations (workload, staffing, team dynamics)"
+    ],
+    "out_of_scope_message": "I can only talk about your experience at Third Wave Coffee—your store, team, and TWC programs."
+  }
+}
